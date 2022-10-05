@@ -1,0 +1,43 @@
+@import "null.scss";
+
+%tpborder {
+  border-bottom: 5px solid #000;
+}
+
+$fz: 40px;
+$color_1: #d3d3d3;
+
+.block {
+  font-size: 14px;
+  line-height: 20px;
+
+  > p {
+    color: red;
+  }
+  .block_text {
+    font-size: 40px;
+
+    span {
+      color: green;
+    }
+  }
+  &.block-1 {
+    color: yellow;
+  }
+}
+.link {
+  color: blue;
+  text-decoration: underline;
+  font-size: 20px;
+
+  @extend %tpborder;
+  .block & {
+    font-size: $fz;
+  }
+  &:hover {
+    color: red;
+  }
+  &:focus {
+    color: black;
+  }
+}
