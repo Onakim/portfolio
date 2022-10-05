@@ -218,7 +218,26 @@ header{
 }
 footer{
     background-color: $color_black;
-    .footer__icon{
-        padding: 30px 0
+    .footer{
+        &__icon{
+            padding: 30px 0
+        }
+        &__menu{
+            display: flex;
+            justify-content: space-between;
+        }
+        &__block{
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 29px;
+            color: white;
+            .active a{
+                color: $color_red;
+            }
+            a{
+                color: white;
+            }
+        }
     }
 }
