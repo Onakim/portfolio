@@ -401,4 +401,49 @@ footer .footer__block:last-child a {
 }
 .portfolio__block:nth-child(even) {
   background-image: url(../img/portfolio1.jpg);
+}
+
+.personal__block {
+  display: flex;
+  margin: 50px 0;
+}
+.personal__text {
+  padding: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.personal__text h3 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+}
+.personal__text p {
+  font-size: 36px;
+  line-height: 44px;
+  color: #555555;
+}
+.personal__text p span {
+  color: #FD0037;
+}
+.personal__text p:nth-child(2) {
+  font-weight: 500;
+  margin: 20px 0 40px;
+}
+.personal__text p:nth-child(3) {
+  font-weight: 400;
+}
+.personal__right {
+  flex-wrap: nowrap;
+  align-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.personal__right p:nth-child(3) {
+  text-align: right;
+}
+.personal hr {
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  margin: 50px 0;
 }/*# sourceMappingURL=style.css.map */
