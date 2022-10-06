@@ -254,6 +254,9 @@ header .header__content .content .header_phone {
   position: relative;
   top: -360px;
 }
+.sertificate .container .arrow img {
+  cursor: pointer;
+}
 
 .about {
   padding-bottom: 80px;
