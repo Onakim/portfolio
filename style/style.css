@@ -352,4 +352,8 @@ footer .footer__block:last-child a {
 }
 .price table tr:last-child th {
   border-bottom: none;
+}
+
+.portfolio {
+  background-color: black;
 }/*# sourceMappingURL=style.css.map */
