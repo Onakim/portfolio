@@ -291,4 +291,49 @@ footer{
 }
 .portfolio{
     background-color: black;
+    color: white;
+    padding: 70px 0 40px;
+    h2{
+        margin: 0;
+        font-weight: 600;
+        font-size: 62px;
+        line-height: 74px;
+        text-align: center;
+    }
+    p{
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31px;
+        text-align: center;
+        padding: 40px;
+    }
+    &__group{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__block{
+        width: 610px;
+        height: 300px;
+        padding: 40px 20px;
+        h3{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            padding: 20px 0;
+        }
+        p{
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 31px;
+            padding: 0;
+            text-align: left;
+        }
+        &:nth-child(odd){
+            background-image: url(../img/portfolio2.jpg);
+        }
+        &:nth-child(even){
+            background-image: url(../img/portfolio1.jpg);
+        }
+    }
 }
