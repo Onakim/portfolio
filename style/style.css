@@ -299,6 +299,7 @@ footer .footer__icon {
 footer .footer__menu {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 footer .footer__block {
   font-style: normal;
@@ -312,4 +313,10 @@ footer .footer__block .active a {
 }
 footer .footer__block a {
   color: white;
+}
+footer .footer__block:nth-child(3) li {
+  margin: 15px 0;
+}
+footer .footer__block:last-child a {
+  margin: 0 15px;
 }/*# sourceMappingURL=style.css.map */

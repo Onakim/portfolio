@@ -228,6 +228,7 @@ footer{
         &__menu{
             display: flex;
             justify-content: space-between;
+            padding-bottom: 20px;
         }
         &__block{
             font-style: normal;
@@ -241,6 +242,12 @@ footer{
             a{
                 color: white;
             }
-        }
+            &:nth-child(3) li{
+                margin: 15px 0;
+            }
+            &:last-child a{
+                margin: 0 15px;
+            }
+        }        
     }
 }
